@@ -5,6 +5,7 @@ Este proyecto tiene Responsive Design para:
 - Escritorio 
 - Dispotivios Android
 - iPhone XS, 11
+
 [![Vista del proyecto](https://i.imgur.com/G5LAJ31.png "Vista del proyecto")](https://i.imgur.com/G5LAJ31.png "Vista del proyecto")
 
 Puedes aportar a este proyecto si lo deseas!
