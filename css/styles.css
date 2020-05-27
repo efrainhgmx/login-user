@@ -42,6 +42,9 @@ body {
     color: white;
     padding: 60px 68px 40px;
     min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 33%; /* 300px*/
 }
 
@@ -51,12 +54,12 @@ body {
 }
 
 .input {
-    width: 95%;
-    height: 15px; 
+    width: 90%;
+    height: 10px; 
     border: 2px solid white;
     border-radius: 50px;
-    margin: 10px auto;
-    padding: 8px;
+    margin-bottom: 15px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -66,9 +69,9 @@ body {
 }
 
 .button {
-    width: inherit;
-    height: 25px;
-    border-radius: 10px;
+    width: initial;
+    height: 35px;
+    border-radius: 50px;
     font-family: 'Muli', sans-serif;
     justify-content: center;
     border-color: transparent;
@@ -158,25 +161,16 @@ body {
     
 }
 
-@media screen and (max-width: 420px) {
+@media only screen and (max-width: 600px) {
     .login__container {
-        width: 200px;
-        min-height: 500px;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        width: 100%;
     }
 
-    .login__container--remember-me label a {
-        font-size: 11px;
-        margin-left: 1px;
-    }
-
-    .footer a{
-        font-size: 8px;
-        margin-left: 2px;
-    }
-}
-
-@media screen and (max-width: 310px) {
-    .login__container {
-        width: 150px;
+    .footer {
+        display: flex;
+        flex-direction: column;
     }
 }
